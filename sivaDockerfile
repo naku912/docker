@@ -1,0 +1,8 @@
+FROM centos 
+WORKDIR /tmp
+RUN echo "hi siva" > /tmp/rahulfile
+ENV my name hari
+COPY sivafile /tmp
+ADD ddemo.tar.gz /tmp
+
+
